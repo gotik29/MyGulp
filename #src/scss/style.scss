@@ -232,7 +232,12 @@ body {
 }
  
 #info {
-	overflow-y: scroll; /* has to be scroll, not auto */
+	overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 	scroll-behavior: smooth;
 } 
+
+img {
+  -webkit-filter: invert(.75);
+          filter: invert(.75);
+}
