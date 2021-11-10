@@ -923,3 +923,15 @@ body.ie ._ibg img {
   line-height: 26px;
   margin: 40px;
 }
+
+.information {
+  padding-bottom: 500px;
+  padding-top: 1000px;
+}
+
+#info {
+  overflow-y: scroll;
+  /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
